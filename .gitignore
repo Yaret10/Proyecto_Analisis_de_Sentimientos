@@ -1,0 +1,69 @@
+# Python cache and build files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Local data and generated outputs
+data/raw/
+data/processed/
+data/interim/
+data/output/
+outputs/
+reports/
+
+# Machine learning models and checkpoints
+models/
+checkpoints/
+runs/
+wandb/
+mlruns/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.onnx
+
+# Large dataset/file formats
+*.csv
+*.xlsx
+*.parquet
+*.pkl
+*.joblib
+
+# Keep placeholder files if you use them
+!.gitkeep

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Análisis de Sentimientos</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+
+<body>
+  <main class="container">
+    <section class="card">
+      <div class="header">
+        <div>
+          <h1>Análisis de Sentimientos</h1>
+          <p>Compara el modelo base vs el modelo fine-tuned.</p>
+        </div>
+        <button id="logoutBtn" class="secondary">Salir</button>
+      </div>
+
+      <label>Comentario</label>
+      <textarea id="commentText" placeholder="Escribe tu comentario aquí..."></textarea>
+
+      <div class="buttons">
+        <button id="baseBtn">Modelo base</button>
+        <button id="finetunedBtn">Modelo fine-tuned</button>
+        <button id="compareBtn">Comparar</button>
+      </div>
+
+      <section id="result" class="result"></section>
+    </section>
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+
+</html>
