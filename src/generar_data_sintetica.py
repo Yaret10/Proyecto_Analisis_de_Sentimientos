@@ -15,7 +15,7 @@ comentarios = [
     "El hotel cumplió con lo esperado."
 ]
 
-fuentes = ["Google Reviews", "Booking", "TripAdvisor", "Encuesta interna", "WhatsApp"]
+fuentes = ["Google Reviews", "Pagina Web", "Pagina Facebook", "Instagram", "WhatsApp"]
 
 data = []
 
